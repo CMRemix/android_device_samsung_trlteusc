@@ -1,13 +1,4 @@
-# Bluetooth firmware
-vendor/firmware/BT_FW_BCM4358A1_001.002.005.0032.0066
-vendor/firmware/bcm43569.hcd
-vendor/firmware/bcm43569A0.hcd
-vendor/firmware/bcm43569A1.hcd
-lib/hw/bluetooth.default.so
-lib/libbluetooth_jni.so
-
 # GPS
-etc/permissions/com.qualcomm.location.xml
 vendor/lib/hw/flp.default.so
 lib/libloc_api_v02.so
 vendor/lib/libgeofence.so
@@ -16,12 +7,8 @@ vendor/lib/liblbs_core.so
 vendor/lib/liblocationservice.so
 vendor/lib/libulp2.so
 
-# NFC
-vendor/firmware/sec_s3fwrn5_firmware.bin
-
 # Qualcomm framework
 vendor/lib/libmdmdetect.so
-vendor/lib/libperipheral_client.so
 vendor/lib/libconfigdb.so
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
@@ -35,10 +22,27 @@ vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
+vendor/lib/libflp.so
+vendor/lib/libdataitems.so
+vendor/lib/liblowi_client.so
+lib/libagc_max.so
+lib/libqservice.so
+lib/libtinyxml.so
+lib/libqdutils.so
+lib/libjpegehw.so
+lib/libjpegdhw.so
+lib/libedmnativehelper.so
+lib/libbt-iopdb.so
+lib/libbt-iopdb_mod.so
+lib/libbt-vendor.so
+lib/libbt-codec_aptx.so
+lib/libbt-aptX-ARM-4.2.2.so
+lib/libbt-codec_sshd.so
+lib/libshdace.so
+lib/libprotobuf-cpp-full.so
 
 # Radio
 bin/efsks
-bin/gsiff_daemon
 bin/ks
 bin/mdm_helper
 bin/mdm_helper_proxy
@@ -46,8 +50,6 @@ bin/qcks
 bin/qmuxd
 bin/rild
 bin/rmnetcli
-bin/rfs_access
-bin/rmt_storage
 lib/libreference-ril.so
 lib/libril.so
 lib/librmnetctl.so
